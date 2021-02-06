@@ -2,12 +2,20 @@
 
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
+import {
+    VapeCross,
+} from './shapes'
 
-    </div>
-  );
+function App() {
+return (
+<div className="app_wrapper">
+<div className='app_cont'>
+
+<VapeCross />
+
+</div>
+</div>
+);
 }
 
 export default App;
